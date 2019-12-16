@@ -52,7 +52,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-xcpm kext-dev-mode=1</string>
+		<string>-xcpm</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -203,8 +203,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
